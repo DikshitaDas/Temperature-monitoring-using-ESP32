@@ -11,6 +11,10 @@ Monitor real-time temperature with an **ESP32 microcontroller** and **DS18B20 se
 - 📊 User-friendly dashboards for web and mobile.
 
 ---
+### Flowchart
+![ESP32 Board](https://github.com/DikshitaDas/Temperature-monitoring-using-ESP32/blob/main/flowchart.jpeg)
+
+---
 
 ## 🔩 Hardware Requirements
 - 🖥️ **ESP32 Development Board**
@@ -28,24 +32,16 @@ Monitor real-time temperature with an **ESP32 microcontroller** and **DS18B20 se
 
 ## 🚀 Setup Guide
 1. **Hardware**: Refer to the [Hardware Setup Guide](Documentation/Hardware_Details.md) for connections.  
-   ![ESP32 Board](Documentation/Images/ESP32_Board.png)
+   ![ESP32 Board](https://github.com/DikshitaDas/Temperature-monitoring-using-ESP32/blob/main/circuit/Circuit_Diagram.png)
 
 2. **Software**:  
    - Install Arduino IDE and required libraries.  
    - Follow the [Blynk IoT Setup Guide](Documentation/Software_Setup.md).  
-   ![Blynk Template](Documentation/Images/Blynk_Template.png)
+   ![Blynk Template](https://github.com/DikshitaDas/Temperature-monitoring-using-ESP32/blob/main/circuit/web_based_interface.png)
 
 3. **Code**: Upload the [TemperatureMonitoring.ino](ArduinoCode/TemperatureMonitoring.ino) file to your ESP32.
 
----
 
-## 📷 Screenshots
-### ESP32 Board Wiring  
-![ESP32 Board](Documentation/Images/ESP32_Board.png)  
-### Blynk Dashboard  
-![Blynk Dashboard](Documentation/Images/Blynk_Dashboard.png)
-
----
 
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE).  
