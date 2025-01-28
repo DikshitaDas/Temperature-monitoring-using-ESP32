@@ -11,8 +11,8 @@
 OneWire ourWire(DS18B20);
 DallasTemperature sensor(&ourWire);
 char auth[] ="T3mPH5enS0QJyBiGMezsGsH9oJYGT2ms";
-char ssid[] = "dlink"; // Enter your wifi name
-char pass[] = "sain@shaikh"; // Enter your wifi password
+char ssid[] = "wifi-name"; // Enter your wifi name
+char pass[] = "wifi-password"; // Enter your wifi password
 BlynkTimer timer;
 void sendSensor()
 {
