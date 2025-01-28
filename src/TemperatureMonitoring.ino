@@ -1,6 +1,6 @@
 #define BLYNK_TEMPLATE_ID "TMPL3OxPJlFy4"
 #define BLYNK_TEMPLATE_NAME "Temperature Monitoring using DS18B20 Sensor"
-#define BLYNK_AUTH_TOKEN "T3mPH5enS0QJyBiGMezsGsH9oJYGT2ms"
+#define BLYNK_AUTH_TOKEN "auth-token"
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -10,7 +10,7 @@
 #define DS18B20 22 //Connect to GPIO2 pin
 OneWire ourWire(DS18B20);
 DallasTemperature sensor(&ourWire);
-char auth[] ="T3mPH5enS0QJyBiGMezsGsH9oJYGT2ms";
+char auth[] ="auth-token";
 char ssid[] = "wifi-name"; // Enter your wifi name
 char pass[] = "wifi-password"; // Enter your wifi password
 BlynkTimer timer;
