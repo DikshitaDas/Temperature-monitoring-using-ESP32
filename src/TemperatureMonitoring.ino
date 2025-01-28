@@ -1,4 +1,4 @@
-#define BLYNK_TEMPLATE_ID "TMPL3OxPJlFy4"
+#define BLYNK_TEMPLATE_ID "template-id"
 #define BLYNK_TEMPLATE_NAME "Temperature Monitoring using DS18B20 Sensor"
 #define BLYNK_AUTH_TOKEN "auth-token"
 #define BLYNK_PRINT Serial
